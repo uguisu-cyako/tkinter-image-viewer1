@@ -31,7 +31,7 @@ def openFile():
         dispPhoto(fpath)
 
 root = tk.Tk()
-root.geometry("400x350")  # ← 半角x
+root.geometry("400x350")  
 
 btn = tk.Button(text="画像を開く", command=openFile)
 imageLabel = tk.Label()
